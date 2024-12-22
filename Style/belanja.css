@@ -1,0 +1,32 @@
+.nav-link:hover {
+  font-weight: bolder !important;
+}
+.belanja {
+  text-decoration: underline !important;
+  font-weight: bolder !important;
+}
+
+.layanan,
+.home,
+.mitra,
+.berita,
+.login {
+  text-decoration: none !important;
+}
+
+.pagination-container > button {
+  background-color: #1599a3;
+  color: #fff;
+  padding: 10px 20px;
+  border: none !important;
+  appearance: none !important;
+  margin: 0 5px;
+}
+.pagination-container > button:hover {
+  background: rgb(21, 153, 163);
+  background: linear-gradient(90deg, rgba(21, 153, 163, 1) 0%, rgb(49, 161, 196) 100%);
+}
+#page-info {
+  border: 1px solid black !important;
+  padding: 0.4rem !important;
+}

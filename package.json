@@ -1,0 +1,16 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gudel Dev",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "swiper": "^11.1.15",
+    "AdminLTE": "^3.2.0"
+  }
+}

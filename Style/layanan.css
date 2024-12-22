@@ -1,0 +1,48 @@
+.nav-link:hover {
+  font-weight: bolder !important;
+}
+.layanan {
+  text-decoration: underline !important;
+  font-weight: bolder !important;
+}
+
+.berita,
+.home,
+.mitra,
+.belanja {
+  text-decoration: none !important;
+}
+
+.fadein {
+  animation: fadein 0.5s forwards ease;
+  transition: all 0.5s ease-in;
+}
+
+.fadeout {
+  animation: fadeout 0.5s forwards ease;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,36 @@
+.nav-link:hover {
+  font-weight: bold !important;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover; /* Menjaga proporsi gambar sambil memenuhi container */
+}
+.img-thumbnail > .image-icon {
+  max-width: 300px !important
+  ; /* Membatasi lebar maksimal gambar */
+  width: 100% !important;
+  height: auto !important;
+}
+/* Default Style untuk Navbar */
+nav {
+  background-color: #1599a3;
+  z-index: 99999999;
+  width: 100%;
+  position: relative;
+  transition: top 0.3s ease;
+}
+
+/* Sticky navbar */
+.sticky-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+/* Navbar setelah scroll */
+.sticky-navbar.scrolled {
+  background-color: #0d7f84; /* Ganti warna navbar setelah scroll */
+  transition: background-color 0.3s ease; /* Efek transisi pada perubahan warna */
+}

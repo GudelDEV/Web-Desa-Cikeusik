@@ -1,0 +1,14 @@
+.nav-link:hover {
+  font-weight: bolder !important;
+}
+.belanja {
+  text-decoration: underline !important;
+  font-weight: bolder !important;
+}
+
+.layanan,
+.home,
+.mitra,
+.berita {
+  text-decoration: none !important;
+}
